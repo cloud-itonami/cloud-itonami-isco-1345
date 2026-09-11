@@ -75,7 +75,7 @@
       to a different client) -- both are exercised separately below and
       labeled by their real `:rule` keyword, not folded together.
 
-  Usage: `clojure -M:render-html [out-file]` (default
+  Usage: `kbb -M:render-html [out-file]` (default
   `docs/samples/operator-console.html`)."
   (:require [jp-go-dds.skin]
             [kotoba.lang.text :as str]
