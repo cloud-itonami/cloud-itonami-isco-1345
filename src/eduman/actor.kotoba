@@ -1,6 +1,6 @@
 (ns eduman.actor
   "EducationManagersActor — the ISCO-08 1345 community eduman actor as a
-  `langgraph.graph/state-graph` (ADR-2607011000 / CLAUDE.md Actors
+  `langgraph.graph/state-graph` (ADR-2607011000 / AGENTS.md Actors
   section). One graph run = one eduman operation request
   (intake → advise → govern → decide → commit/hold, with a
   human-approval interrupt for escalated proposals). No infinite
